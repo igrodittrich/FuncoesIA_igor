@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Dragão, com certeza!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Tendências medievais. "
             },
             {
                 texto: "O robô deve ser muito doido...",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Melhor não te contar segredos do governo."
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Inverno.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: "Parabéns pelo bom gosto, e sorvete é bom no frio."
             },
             {
                 texto: "Verão.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "As vezes sair na rua com os amigos e aquele sol na cara é divertido."
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Uma espada.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                afirmacao: "Imagina uma mega espada super ultra maneira com poderes mágicos. Eu teria uma."
             },
             {
                 texto: "Um rifle.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "Ser um sniper num cenário apocalíptico já foi a fantasia de muita gente..."
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Grande e exposta, de forma que ninguém ousasse atacar.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                afirmacao: "Extravagante e passa a mensagem. Como um império."
             },
             {
                 texto: "Secreta e bem defendida.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                afirmacao: "Com essa base escondida, seus segredos também ficam.."
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Dar uma boa nota para o Igor...?.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Valeu pela nota!! Show de bola!!!"
             },
             {
                 texto: "Dar uma nota mais ou menos...😥",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Não dá pra ganhar todas... 😭"
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "O resultado foi...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
